@@ -1,3 +1,7 @@
+### Copy-Paste Files ke Root Dir
+```shell
+sudo cp /path/to/source/file /path/to/destination/
+```
 ### Setting udev-rules
 cara membuat udev rules:
 ```shell
