@@ -6,7 +6,7 @@ sudo cp /path/to/source/file /path/to/destination/
 cara membuat udev rules:
 ```shell
 cd ../..
-cd etc/udev/rules.d
+cd /etc/udev/rules.d
 sudo gedit 10-bagas.rules
 ```
 Masukkan identitas serial masing2 device
