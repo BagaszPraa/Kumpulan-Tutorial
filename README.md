@@ -6,9 +6,11 @@ cd etc/udev/rules.d
 sudo gedit 10-bagas.rules
 ```
 Masukkan identitas serial masing2 device
+```shell
 KERNEL=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="0001", MODE:="0666", SYMLINK+="rplidar"
 KERNEL=="ttyUSB*", ATTRS{idVendor}=="1d6b", ATTRS{idProduct}=="0002", ATTRS{serial}=="0000:00:14.0", MODE:="0666", SYMLINK+="FCU"
 KERNEL=="ttyUSB*", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", MODE:="0666", SYMLINK+="rosserial"
+```
 ID vendor&product serta serial bisa dilihat dengan 
 ```shell
 udevadm info -a /dev/ttyUSB0
