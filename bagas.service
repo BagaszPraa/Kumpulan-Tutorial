@@ -5,8 +5,8 @@ Description=BagaszPraa service
 Environment=DISPLAY=:0
 ExecStart=/home/bagas/bagas.sh
 Restart=always
-User=ati
-Environment=XAUTHORITY=/home/ati/.Xauthority
+User=bagas
+Environment=XAUTHORITY=/home/bagas/.Xauthority
 
 [Install]
 WantedBy=multi-user.target
