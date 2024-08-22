@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
-    <mxGraphModel dx="2049" dy="1054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -9,8 +9,13 @@
             <mxRectangle x="80" y="40" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j-6bAbtd_mNCW3oIfH7T-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="j-6bAbtd_mNCW3oIfH7T-3" source="j-6bAbtd_mNCW3oIfH7T-9" target="j-6bAbtd_mNCW3oIfH7T-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="j-6bAbtd_mNCW3oIfH7T-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="j-6bAbtd_mNCW3oIfH7T-3" source="j-6bAbtd_mNCW3oIfH7T-9" target="j-6bAbtd_mNCW3oIfH7T-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="110" />
+              <mxPoint x="355" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="j-6bAbtd_mNCW3oIfH7T-9" value="FCU" style="whiteSpace=wrap;html=1;spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="j-6bAbtd_mNCW3oIfH7T-3">
           <mxGeometry x="390" y="50" width="100" height="30" as="geometry" />
@@ -71,6 +76,14 @@
         <mxCell id="j-6bAbtd_mNCW3oIfH7T-18" value="TETHERED UNIT (AIR)" style="whiteSpace=wrap;html=1;spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="j-6bAbtd_mNCW3oIfH7T-3">
           <mxGeometry x="60" y="190" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="j-6bAbtd_mNCW3oIfH7T-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.904;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="j-6bAbtd_mNCW3oIfH7T-3" source="j-6bAbtd_mNCW3oIfH7T-9" target="j-6bAbtd_mNCW3oIfH7T-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="100" />
+              <mxPoint x="370" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="j-6bAbtd_mNCW3oIfH7T-19" value="GROUND CONTROL STATION" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="670" y="90" width="550" height="290" as="geometry">
             <mxRectangle x="80" y="40" width="100" height="30" as="alternateBounds" />
@@ -86,7 +99,7 @@
           <mxGeometry x="60" y="50" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j-6bAbtd_mNCW3oIfH7T-29" value="COMMUNICATION &amp; NAVIGATION" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="50" y="420" width="550" height="290" as="geometry">
+          <mxGeometry x="50" y="770" width="550" height="290" as="geometry">
             <mxRectangle x="80" y="40" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -106,11 +119,22 @@
           <mxGeometry x="225" y="100" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j-6bAbtd_mNCW3oIfH7T-39" value="REMOTE CONTROL / PILOT" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="670" y="420" width="550" height="290" as="geometry">
+          <mxGeometry x="670" y="670" width="550" height="290" as="geometry">
             <mxRectangle x="80" y="40" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j-6bAbtd_mNCW3oIfH7T-42" value="MK32 REMOTE" style="whiteSpace=wrap;html=1;spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="j-6bAbtd_mNCW3oIfH7T-39">
+          <mxGeometry x="60" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-6bAbtd_mNCW3oIfH7T-65" value="POWER TETHERED" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="430" width="550" height="290" as="geometry">
+            <mxRectangle x="80" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-6bAbtd_mNCW3oIfH7T-67" value="TETHERED UNIT (GROUND)" style="whiteSpace=wrap;html=1;spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="j-6bAbtd_mNCW3oIfH7T-65">
+          <mxGeometry x="170" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-6bAbtd_mNCW3oIfH7T-68" value="GENSET" style="whiteSpace=wrap;html=1;spacing=9;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="j-6bAbtd_mNCW3oIfH7T-65">
           <mxGeometry x="60" y="50" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
