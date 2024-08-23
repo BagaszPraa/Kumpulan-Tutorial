@@ -504,7 +504,7 @@
             <mxRectangle width="180" height="54" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j-6bAbtd_mNCW3oIfH7T-302" value="HDMI" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="j-6bAbtd_mNCW3oIfH7T-300" vertex="1">
+        <mxCell id="j-6bAbtd_mNCW3oIfH7T-302" value="HDMI FEMALE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="j-6bAbtd_mNCW3oIfH7T-300" vertex="1">
           <mxGeometry x="180" width="130" height="54" as="geometry">
             <mxRectangle width="130" height="54" as="alternateBounds" />
           </mxGeometry>
