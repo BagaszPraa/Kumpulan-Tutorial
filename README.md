@@ -31,4 +31,5 @@ sudo gedit bagas.service
 sudo systemctl start bagas
 sudo systemctl enable bagas
 sudo systemctl status bagas
+sudo journalctl -u bagas.service -b
 ```
