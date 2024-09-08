@@ -374,6 +374,9 @@
         <mxCell id="-QC6E7Bui8WbdeqdZjUx-99" value="&lt;b&gt;GND&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=5;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="940" y="150" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-QC6E7Bui8WbdeqdZjUx-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.008;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;endArrow=none;endFill=0;" edge="1" parent="1" source="-QC6E7Bui8WbdeqdZjUx-99" target="-QC6E7Bui8WbdeqdZjUx-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
