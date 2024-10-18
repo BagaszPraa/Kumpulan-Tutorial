@@ -1,0 +1,20 @@
+BUILDING ARDUPILOT FIRMWARE (By : BAGASS GANTENGG)
+1. INSTALL WSL https://learn.microsoft.com/en-us/windows/wsl/install
+2. Masuk powersheell windows dan ketik wsl
+3. Setelah masuk ke wsl ketik cd untuk kembali ke HOME
+4. Clone source code ARDUPILOT 
+5. Checkout salah satu branch (ex: git checkout Copter 4.5.1 )
+6. cek kembali apakah sudah ter checkout dengan sesuai branch nya dengan ketik git branch / git status
+7. setelah itu lakukan konfigurasi board. (ex: ./waf configure --board -NAMABOARD- )
+8. build/compile source code. ketik ./waf -NAMAFIRMWARE- (NAMAFIRMWARE = copter, plane, dll)
+9. Output firmware dengan format apj,hex,dan lain2 berada pada folder build/-NAMABOARD-/bin
+
+
+//////cara clone SC Ardupilot///////
+git clone --recurse-submodules https://github.com/Ardupilot/ardupilot
+cd ardupilot
+Tools/environment_install/install-prereqs-ubuntu.sh -y
+. ~/.profile
+
+//////referensi Video/tutorial/////////////
+https://www.youtube.com/watch?v=PLGezPQYMrs&ab_channel=RobertFeranec
