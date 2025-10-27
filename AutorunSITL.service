@@ -1,0 +1,28 @@
+[Unit]
+Description=ArduPilot SITL QuadPlane
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=orangepi
+WorkingDirectory=/home/orangepi/ardupilot
+ExecStart=/home/orangepi/venv-ardupilot/bin/python3 /home/orangepi/ardupilot/To>
+    -j4 \
+    -L BEKASI \
+    -v ArduPlane \
+    -f quadplane \
+    --out=192.168.43.1:14550 \
+    --mavproxy-args="--daemon" \
+    -C
+Restart=on-failure
+RestartSec=5
+StandardOutput=append:/home/orangepi/sitl.log
+StandardError=append:/home/orangepi/sitl.log
+Environment="PATH=/home/orangepi/venv-ardupilot/bin:/usr/local/sbin:/usr/local/>
+
+[Install]
+WantedBy=multi-user.target
+
+
+
